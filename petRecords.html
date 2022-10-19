@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Table - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0" style="color: #283342;border-color: #283342;background: #283342;">
+            <div class="container-fluid d-flex flex-column p-0"><a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
+                    <div class="sidebar-brand-icon rotate-n-15"><i class="fas fa-solid fa-dog"></i></div>
+                    <div class="sidebar-brand-text mx-3"><span>pet meds</span></div>
+                </a>
+                <hr class="sidebar-divider my-0">
+                <ul class="navbar-nav text-light" id="accordionSidebar">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="order.html"><i class="fas fa-user"></i><span>Orders</span></a></li>
+                    <li class="nav-item"><a class="nav-link active" href="petRecords.html"><i class="fas fa-table"></i><span>Pet Records</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="prescription.html"><i class="far fa-user-circle"></i><span>Prescriptions</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="register.html"><i class="fas fa-user-circle"></i><span>Contact Vet</span></a><a class="nav-link" href="register.html"><i class="fas fa-user-circle"></i><span>Contact Customer Service</span></a><a class="nav-link" href="register.html"><i class="fas fa-user-circle"></i><span>Contact Pet Owners</span></a></li>
+                </ul>
+                <div class="text-center d-none d-md-inline"></div>
+            </div>
+        </nav>
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                
+                <div class="container-fluid">
+                    <h3 class="text-dark mb-4">Pet Records</h3>
+                    <div class="card shadow">
+                        <div class="card-header py-3">
+                            <p class="text-primary m-0 fw-bold">Employee Info</p>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6 text-nowrap">
+                                    <div id="dataTable_length" class="dataTables_length" aria-controls="dataTable"><label class="form-label">Show&nbsp;<select class="d-inline-block form-select form-select-sm">
+                                                <option value="10" selected="">10</option>
+                                                <option value="25">25</option>
+                                                <option value="50">50</option>
+                                                <option value="100">100</option>
+                                            </select>&nbsp;</label></div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="text-md-end dataTables_filter" id="dataTable_filter"><label class="form-label"><input type="search" class="form-control form-control-sm" aria-controls="dataTable" placeholder="Search"></label></div>
+                                </div>
+                            </div>
+                            <div class="table-responsive table mt-2" id="dataTable" role="grid" aria-describedby="dataTable_info">
+                                <table class="table my-0" id="dataTable">
+                                    <thead>
+                                        <tr>
+                                            <th>Pet Owners</th>
+                                            <th>Pet Name</th>
+                                            <th>Pet type/breed</th>
+                                            <th>Age</th>
+                                            <th>Sex</th>
+                                            <th>Vet</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><img class="rounded-circle me-2" width="30" height="30" src="assets/img/avatars/avatar1.jpeg">Airi Satou</td>
+                                            <td>Bella</td>
+                                            <td>Bulldog</td>
+                                            <td>3</td>
+                                            <td>Female</td>
+                                            <td>Dr. Bui</td>
+                                        </tr>
+                                        <tr>
+                                            <td><img class="rounded-circle me-2" width="30" height="30" src="assets/img/avatars/avatar2.jpeg">Angelica Ramos</td>
+                                            <td>Luna</td>
+                                            <td>Poodle</td>
+                                            <td>2</td>
+                                            <td>Female<br></td>
+                                            <td>Dr. Nguyen</td>
+                                        </tr>
+                                        <tr>
+                                            <td><img class="rounded-circle me-2" width="30" height="30" src="assets/img/avatars/avatar3.jpeg">Ashton Cox</td>
+                                            <td>Archie</td>
+                                            <td>German Shepard</td>
+                                            <td>6</td>
+                                            <td>Male</td>
+                                            <td>Dr. Truong</td>
+                                        </tr>
+                                        <tr>
+                                            <td><img class="rounded-circle me-2" width="30" height="30" src="assets/img/avatars/avatar4.jpeg">Bradley Greer</td>
+                                            <td>Baldie</td>
+                                            <td>Beagle</td>
+                                            <td>12</td>
+                                            <td>Male<br></td>
+                                            <td>Dr. Tran</td>
+                                        </tr>
+                                        <tr>
+                                            <td><img class="rounded-circle me-2" width="30" height="30" src="assets/img/avatars/avatar5.jpeg">Brenden Wagner</td>
+                                            <td>Cooper</td>
+                                            <td>Pomeranian</td>
+                                            <td>10</td>
+                                            <td>Male<br></td>
+                                            <td>Dr. Bui</td>
+                                        </tr>
+                                        <tr>
+                                            <td><img class="rounded-circle me-2" width="30" height="30" src="assets/img/avatars/avatar1.jpeg">Brielle Williamson</td>
+                                            <td>Dash</td>
+                                            <td>Siamese Cat</td>
+                                            <td>6</td>
+                                            <td>Male<br></td>
+                                            <td>Dr. Bui</td>
+                                        </tr>
+                                        <tr>
+                                            <td><img class="rounded-circle me-2" width="30" height="30" src="assets/img/avatars/avatar2.jpeg">Bruno Nash<br></td>
+                                            <td>Roxie</td>
+                                            <td>Burmese Cat</td>
+                                            <td>9</td>
+                                            <td>Female<br></td>
+                                            <td>Dr. Nguyen</td>
+                                        </tr>
+                                        <tr>
+                                            <td><img class="rounded-circle me-2" width="30" height="30" src="assets/img/avatars/avatar3.jpeg">Caesar Vance</td>
+                                            <td>Tery</td>
+                                            <td>Sphynx Cat</td>
+                                            <td>6</td>
+                                            <td>Female<br></td>
+                                            <td>Dr. Tran</td>
+                                        </tr>
+                                        <tr>
+                                            <td><img class="rounded-circle me-2" width="30" height="30" src="assets/img/avatars/avatar4.jpeg">Cara Stevens</td>
+                                            <td>Yaki</td>
+                                            <td>Husky</td>
+                                            <td>3</td>
+                                            <td>Female<br></td>
+                                            <td>Dr. Truong</td>
+                                        </tr>
+                                        <tr>
+                                            <td><img class="rounded-circle me-2" width="30" height="30" src="assets/img/avatars/avatar5.jpeg">Cedric Kelly</td>
+                                            <td>Mochi</td>
+                                            <td>Golden Retriever</td>
+                                            <td>7</td>
+                                            <td>Female</td>
+                                            <td>Dr. Nguyen</td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr></tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 align-self-center">
+                                    <p id="dataTable_info" class="dataTables_info" role="status" aria-live="polite">Showing 1 to 10 of 27</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <nav class="d-lg-flex justify-content-lg-end dataTables_paginate paging_simple_numbers">
+                                        <ul class="pagination">
+                                            <li class="page-item disabled"><a class="page-link" aria-label="Previous" href="#"><span aria-hidden="true">«</span></a></li>
+                                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item"><a class="page-link" aria-label="Next" href="#"><span aria-hidden="true">»</span></a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="bg-white sticky-footer">
+                <div class="container my-auto">
+                    <div class="text-center my-auto copyright"></div>
+                </div>
+            </footer>
+        </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
